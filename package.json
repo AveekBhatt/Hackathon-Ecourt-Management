@@ -1,0 +1,45 @@
+{
+  "name": "ecourt",
+  "version": "1.0.0",
+  "description": "Learning node.js",
+  "main": "newindex.js",
+  "scripts": {
+    "start:dev": "nodemon Ecourtserver.js",
+    "start:prod": "NODE_ENV=production nodemon Ecourtserver.js",
+    "debug": "ndb Ecourtserver.js",
+    "start": "node Ecourtserver.js"
+  },
+  "author": "Aveek Bhattacharyya",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate": "^0.0.1",
+    "express-rate-limit": "^6.9.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mapbox": "^1.0.0-beta10",
+    "mongodb": "^5.7.0",
+    "mongoose": "^5.13.20",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "pug": "^3.0.2",
+    "sharp": "^0.32.5",
+    "slugify": "^1.6.6",
+    "stripe": "^13.3.0",
+    "validator": "^13.11.0",
+    "xss": "^1.0.14",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^3.0.1"
+  }
+}
